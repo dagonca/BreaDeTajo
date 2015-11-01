@@ -1,13 +1,17 @@
 //
 //  ViewController.h
-//  BreaDeTajo
+//  MorataDeTajuña
 //
-//  Created by Dani Gonzalez castillo on 28/09/13.
-//  Copyright (c) 2013 Dani Gonzalez castillo. All rights reserved.
+//  Created by Dani Gonzalez castillo on 2/3/15.
+//  Copyright (c) 2015 Dani Gonzalez castillo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *notificacion;
+
+@property (weak, nonatomic) IBOutlet UIImageView *portada;
 
 @end
+
